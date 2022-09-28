@@ -119,7 +119,7 @@
         await delay(1)
         log("Buyrun.");
         await delay(1)
-
+        siparisVarmi=false;
         //stoğu azaltalım
         for ( key in gerekenMalzemeler) {
             stok[key]=stok[key]-gerekenMalzemeler[key];
